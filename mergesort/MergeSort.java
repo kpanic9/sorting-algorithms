@@ -1,4 +1,9 @@
-
+/**
+ * @author namesh
+ *
+ * Implmentation of the merge sort for an array of integers
+ * for acsending order.
+ */
 public class MergeSort {
 
 	/**
