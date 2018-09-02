@@ -18,6 +18,13 @@ public class MergeSort {
 	}
 	
 	
+	/**
+	 * Merging function of the two arrays
+	 * @param array
+	 * @param start
+	 * @param middle
+	 * @param end
+	 */
 	public static void merge(int array[], int start, int middle, int end) {
 		int leftLength = middle - start + 1 + 1;
 		int L[] = new int[leftLength];
@@ -73,6 +80,7 @@ public class MergeSort {
 		MergeSort.printArray(array);
 		
 	}
+	
 	
 	
 	public static void printArray(int array[]) {
