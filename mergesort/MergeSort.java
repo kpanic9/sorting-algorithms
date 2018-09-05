@@ -13,7 +13,7 @@ public class MergeSort {
 	 * @param starting index of the array
 	 * @param ending index of the array
 	 */
-	public static void mergeSort(int array[], int start, int end) {
+	public static void mergeSort(int array[], int start, int end) { de
 		int middle = (start + end) / 2;
 		if(end > start) {
 			mergeSort(array, start, middle);
